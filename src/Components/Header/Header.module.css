@@ -1,11 +1,25 @@
-
-
-.headerUnlist {
+.header {
+  background:  #FFFBEF;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
 }
 
-.headerItem {
+.headerUnlist {
+  margin: 0;
+  padding: 0.3rem;
+  padding-left: 0;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.65rem;
   list-style: none;
+}
+
+.headerItemBilbo {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 2.25rem;
+  padding: 0.2rem;
 }
